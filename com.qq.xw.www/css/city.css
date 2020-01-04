@@ -131,7 +131,7 @@ header img {
     border-radius: calc(4rem / 16);
     background-color: rgb(238, 239, 242);
   }
-  .content-two ul li a {
+  .content-two ul li a { 
     width: 100%;
     color: #3f4146;
     font-size: calc(16rem / 16);
