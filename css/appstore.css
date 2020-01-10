@@ -1,0 +1,204 @@
+@media screen and (width: 320px) {
+  html {
+    font-size: calc(320px / 20);
+  }
+}
+@media screen and (width: 375px) {
+  html {
+    font-size: calc(375px / 20);
+  }
+}
+@media screen and (width: 414px) {
+  html {
+    font-size: calc(414px / 20);
+  }
+}
+h1,h2,h3,h4,h5{
+    font-weight: normal;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+main {
+  padding-left: calc(15rem / 16);
+  padding-right: calc(15rem / 16);
+  box-sizing: border-box;
+}
+/* 头部 */
+header {
+  background-color: rgb(49, 49, 49);
+  width: 100%;
+  height: calc(48rem / 16);
+  line-height: calc(48rem / 16);
+}
+header a {
+  float: left;
+  width: 10%;
+  text-align: center;
+  overflow: hidden;
+}
+header img {
+  vertical-align: middle;
+}
+header a:nth-child(2) {
+  margin-left: calc(460rem / 64);
+}
+header a:nth-child(3) {
+  margin-left: calc(436rem / 64);
+}
+/* 第一栏 */
+.one {
+  width: 100%;
+  height: calc(48rem / 16);
+  line-height: calc(48rem / 16);
+  border-bottom: 2px solid rgb(242, 242, 242);
+}
+.one span {
+  color: rgb(0, 0, 0);
+  font-size: calc(16rem / 16);
+  font-weight: 600;
+}
+.one span:nth-child(1) {
+  margin-left: calc(10rem / 16);
+}
+.one span:nth-child(2) {
+  color: rgb(142, 142, 147);
+  font-size: calc(14rem / 16);
+  margin-left: calc(2rem / 16);
+  font-weight: normal;
+}
+.two {
+  display: block;
+  width: 87%;
+  height: calc(40rem / 16);
+  /* line-height: calc(23rem/16); */
+  margin: calc(20rem / 16) 0;
+  background-color: rgb(242, 248, 252);
+  padding-left: calc(8rem / 16);
+  padding-right: calc(8rem / 16);
+  box-sizing: border-box;
+  border-radius: calc(5rem / 16);
+  margin-left: calc(23rem / 16);
+  overflow: hidden;
+}
+.two p {
+  padding-left: calc(8rem / 16);
+  padding-right: calc(8rem / 16);
+  box-sizing: border-box;
+  line-height: calc(15rem / 16);
+  margin-top: calc(6rem / 16);
+}
+.two p:nth-child(2) {
+  margin-left: calc(105rem / 16);
+  margin-top: calc(-1rem / 16);
+}
+/* 第三栏 */
+.three {
+  width: 100%;
+  height: calc(157rem / 16);
+  border-bottom:2px solid rgb(242, 242, 242);
+}
+.three-left {
+    text-align: center;
+    width: 50%;
+    float: left;
+    height: calc(413rem / 64);
+}
+.three-left img {
+    width: calc(387rem / 64);
+    height: calc(387rem / 64);
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: calc(20rem/16);
+
+}
+.three-right {
+  float: right;
+  width: 50%;
+}
+.three h1{
+    font-weight: 600;
+    font-size: calc(12rem/16);
+}
+.three h2{
+    color: rgb(142,142,147);
+    margin: calc(3rem/16) 0;
+}
+.three h3{
+    color: rgb(40,134,209);
+}
+.three h4{
+    color: rgb(142,142,147);
+    margin: calc(3rem/16) 0;
+}
+.three h5{
+    color: rgb(142,142,147);
+    margin: calc(3rem/16) 0;
+    margin-top: calc(6rem/16);
+}
+.three h5 img{
+    vertical-align: top;
+}
+.three p{
+    border: 1px solid rgb(40,134,209);
+    border-radius: calc(5rem/16);
+    color: rgb(40,134,209);
+    height: calc(25rem/16);
+    line-height: calc(25rem/16);
+    width: 84%;
+    text-align: center;
+    margin-top: calc(12em/16);
+}
+/* 第四栏 */
+.four{
+    width: 100%;
+    height: calc(355rem/16);
+    border-bottom: 2px solid rgb(242, 242, 242);
+}
+.four h3{
+    font-size: calc(16rem/16);
+    font-weight:600;
+    margin-top: calc(65rem/64);
+    margin-bottom: calc(65rem/64);
+}
+.four a{
+    width: 50%;
+    float: left;
+    padding-left: calc(7rem/16);
+    box-sizing: border-box;
+    height: calc(300rem/16);
+}
+.four a:nth-child(2){
+    padding-left: 0;
+}
+.four img{
+    width: 100%;
+    height: calc(300rem/16);
+    border-radius: calc(15rem/16);
+}
+/* 第五栏 */
+.five{
+    width: 100%;
+    height: calc(50rem/16);
+    border-bottom: 1px solid rgb(142, 142, 147);
+}
+.five h3{
+    font-size: calc(14rem/16);
+    font-weight: 600;
+    margin-top: calc(15rem/16);
+}
+.five p{
+    font-size: calc(10rem/16);
+    color: rgb(142, 142, 147);
+    margin-top: calc(5rem/16);
+}
+.five img{
+    float: right;
+    margin-top: calc(-24rem/16);
+}
